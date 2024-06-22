@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collapsible Sidebar with Tutorial Buttons</title>
+    <link rel="stylesheet" href="css/tutorial.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar" id="sidebar">
+            <button class="toggle-button" id="toggleButton">☰</button>
+            <ul class="menu">
+                <li>
+                    <a href="project.html">
+                        <i class="fas fa-folder"></i>
+                        <span class="text">Project</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="tutorial.html">
+                        <i class="fas fa-book"></i>
+                        <span class="text">Tutorial</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="workplace.html">
+                        <i class="fas fa-pencil-square"></i>
+                        <span class="text">Workplace</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="setting.html">
+                        <i class="fas fa-cog"></i>
+                        <span class="text">Settings</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>Snapseed</h1>
+            <div class="tutorials">
+                <div class="tutorial">
+                    <img src="https://via.placeholder.com/100" alt="Tutorial 1">
+                    <button class="tutorial-button" data-tutorial-number="1">Tutorial 1</button>
+                </div>
+                <div class="tutorial">
+                    <img src="https://via.placeholder.com/100" alt="Tutorial 2">
+                    <button class="tutorial-button" data-tutorial-number="2">Tutorial 2</button>
+                </div>
+                <div class="tutorial">
+                    <img src="https://via.placeholder.com/100" alt="Tutorial 3">
+                    <button class="tutorial-button" data-tutorial-number="3">Tutorial 3</button>
+                </div>
+                <div class="tutorial">
+                    <img src="https://via.placeholder.com/100" alt="Tutorial 4">
+                    <button class="tutorial-button" data-tutorial-number="4">Tutorial 4</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/tutorial.js"></script>
+</body>
+</html>
